@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles/styles.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/682f565d4a.js" crossorigin="anonymous"></script>
+    <title>AlvaroCortésWebDev</title>
+</head> 
+<body>
+  
+
+    <header class="header ">
+        <div class="logo">
+
+        </div>
+        <nav class="nav">
+            <!-- menu flex-->
+            
+             <div class="menu" id="menu">
+                 <a class="menu-item home-btn"  href="#home">HOME</a>             
+                 <a class="menu-item about-btn"  href="#about">ABOUT</a>
+                 <a class="menu-item skill-btn"  href="#skills">SKILLS</a>
+                 <a class="menu-item contact-btn"  href="#contact">CONTACT</a>
+             </div>
+             <span class="menu-toggle"><i class="fa-solid fa-bars"></i></span>
+        </nav>
+    </header>
+    
+    
+    
+        <!-- <div class="percentage-container">
+            <div class="percentage"></div>
+        </div> -->
+
+        <!-- welcome section -->
+
+    <section class="hero " id="home">
+        <div class="container">
+            <div class="description">
+                <h1 class="title animate__animated animate__backInLeft">WELCOME</h1>
+                <h2 class="animate__animated animate__backInLeft animate__delay-1s">My name is Alvaro, a trainee front-end web developer</h2>
+            </div>
+            <div class="ilustration-container animate__animated animate__backInRight animate__delay-2s">
+                <img src="images/developer.svg" alt="developer ilustration">
+            </div>
+        </div>
+        
+        <div class="wave">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+        
+    </section>
+    
+
+    <!-- about me -->
+
+    <section class="info " id="about">
+       
+       <div class="about">
+         <h2 class="about__me__h2">About me</h2>
+         <p> I'm a 19 years old self-taught front-end developer <br>
+             I like to create and feel rewarded with difficult challenges <br> <br>
+             I focus in minimalists and functional designs, but i considere myself as someone very versatile and fearless of trying something new
+         </p>
+       </div>
+
+        <div class="imagen__portada">
+            <img src="images/mi-portada2.png" alt="imagen de presentacion de Alvaro Cortés">
+    
+        </div>
+
+    </section>  
+
+    <!-- Skills section -->
+
+
+        <section class="skills__grid " id="skills">
+            <h2>this is my skillset</h2>
+
+            <div class="skill__container__grid">
+                <div class="skill skill1"> 
+                    <div class="icon">
+                    <i class="fa-brands fa-html5"></i> 
+                    <h3>HTML - 1 year</h3>
+                    </div>
+
+                    <!-- migth use it later <div class="skill__description">
+                        <p>I have all the needed knowledge to create any kind of web-site, using different technologies</p> 
+                    </div> -->
+
+                </div>
+
+                <div class="skill skill2"> 
+                    <div class="icon">
+                        <i class="fa-brands fa-css3-alt"></i> 
+                        <h3>CSS - 1 year</h3>
+                    </div>
+
+                    <!-- <div class="skill__description">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti culpa dolores accusamus, laborum odio?</p> 
+                    </div> -->
+                </div>
+
+                <div class="skill skill3"> 
+                    <div class="icon">
+                        <i class="fa-brands fa-square-js"></i></i> 
+                        <h3>JAVASCRIPT - 6 months </h3>
+                    </div>
+
+                    <!-- <div class="skill__description">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti culpa dolores accusamus, laborum odio?</p> 
+                    </div> -->
+
+                </div>
+
+                <div class="skill skill4"> 
+                    <div class="icon">
+                        <i class="fa-brands fa-sass"></i> 
+                        <h3>SASS - 11 months </h3>
+                    </div>
+
+                    <!-- <div class="skill__description">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti culpa dolores accusamus, laborum odio?</p> 
+                    </div> -->
+
+                </div>
+
+                <div class="skill skill5">
+                    <div class="icon">
+                        <img src="/images/photoshop.png" alt="">
+                        <h3>PHOTOSHOP - 3 months </h3>
+                    </div>
+
+                    <!-- <div class="skill__description">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti culpa dolores accusamus, laborum odio?</p> 
+                    </div> -->
+
+                </div>
+
+            </div>
+            <h3 class="hopes"> I'm heading to become into a Full-stack developer, i have a lot to learn, but i'm really enjoying my trip</h3>
+        </section>     
+
+        <section class="contact" id="contact">
+
+            <h2 class="contact__logo">Contact <span> Me</span> </h2>
+            
+            <div class="contact__wrapper">
+                
+                <div class="contact__form">
+                    <h3>Contact me</h3>
+                    <form action="" id="form" action="https://formspree.io/f/mayzlejn" method="POST">
+                        <p>
+                            <label for="fullname" >Fullname</label>
+                            <input type="text" required name="Fullname" id="Fullname">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required>
+                        </p>
+                        <!-- <p>
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" required>
+                        </p> -->
+                        <!-- <p>
+                            <label for="afair">Affair</label>
+                            <input type="text" name="affair" id="affair" required>
+                        </p> -->
+                        <p class="block">
+                            <label for="message">Message</label>
+                            <textarea name="message"  rows="3" id="message" required></textarea>
+                        </p>
+                        <p class="block">
+                            <button type="submit" id="submit">
+                                Send
+                            </button>
+                        </p>
+                    </form>
+                </div>
+
+                <div class="contact__info">
+                    <h4>More info</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i>Mexico 🇲🇽</li>
+                        <li><i class="fa-solid fa-phone"></i><b> (+52) 443-707-0458</b></li>
+                        <li><i class="fa-solid fa-envelope-open"></i>cortesvalenciaalvarojesus16@outlook.es</li>
+                    </ul>
+                    <p>i will be very glad to help you, let's work together! </p> <br>
+                </div>
+
+            </div>
+        </section> 
+
+        <script src="/js/form.js"></script>
+        <script src="/js/main.js"></script>
+
+</body>
+</html>
